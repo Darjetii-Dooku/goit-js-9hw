@@ -26,8 +26,8 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 };
-let timeDifference = 0;
-let timerId = null;
+let timeDif = 0;
+let startId= null;
 let formatDate = null;
 
 console.dir(datePicker)
